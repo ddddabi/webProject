@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>마이페이지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="myPage.css">    
+    </head>
+    <body>
+        <!--네비게이션 -->
+        <section id="header" class="header_wrap">
+        <div class="header_top wide_max_width_area">
+            <div class="header_logo">
+                <h1 class="logo">
+                  <a class="back_logo" href="index.html">
+                    <img class="img_logo"src="/images/main_logo.png" alt="구멍가게">
+                  </a>
+                </h1>
+              </div>
+            <div class="user_area">
+            <ul class="service_menu">
+                <li class="list_item login"><a href="login.html">로그인</a></li>
+                <li class="list_item join"><a href="signUp.html">회원가입</a></li>
+                <li class="list_item service"><a href="#">서비스안내</a></li>
+                <li class="list_item customer"><a href="#">고객센터</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        </section>
+        <!--container-->
+        <section id="container" class="header_top wide_max_width_area">
+            <div class="wide_max_width_area">
+                <div class="login_form rounded border border-secondary-subtle mt-5 m-auto w-50 h-50 bg-light">
+                    <div class="login_title m-4 d-flex"><h3>마이페이지</h3></div>
+                    <div id="main">
+                        <div class="flex-container2">
+                            <!-- 메인 -->
+                            <div>
+                                <div id="userInfo">
+                                    <div class="flex-nickname">다람쥐<div id="님">&nbsp;&nbsp;님</div>
+                                        <div class="state"><button id="modifyBtn" onClick="modify_alert()">닉네임 변경</button></div>
+                                        </div>
+
+                                        <div class="flex-container-icon">
+                                            <div class="flex-container-icon-sub1">
+                                                <img src="/images/Vector.png" width="28px">
+                                                <div class="category1">포인트</div> 
+                                            </div>
+                                            <div class="state">200<span>P</span></div>
+                                        </div>
+
+                                        <div class="flex-container-icon" id="icon_bottom_line">
+                                            <div class="flex-container-icon-sub1">
+                                                <img src="/images/Vector (1).png" width="25px">
+                                                <div class="category1">&nbsp;진행 중인 설문조사</div>
+                                            </div>
+                                            <div class="state">5<span>개</span></div>
+                                        </div>
+                                </div>
+                                <div class="flex-container-icon">
+                                    <div class="flex-container-icon-sub1">
+                                        <img src="/images/Vector (2).png" width="25px"><a href="#">
+                                            <div class="category2">&nbsp;나의 설문조사</div>
+                                    </div>
+                                        <img src="/images/Rectangle 76.png" width="8px"></a>
+                                </div>
+    
+                                <div class="flex-container-icon">
+                                    <div class="flex-container-icon-sub1">
+                                        <img src="/images/Group.png" width="25px"><a href="#">
+                                            <div class="category2">&nbsp;관심 있는 설문조사</div>
+                                    </div>
+                                        <img src="/images/Rectangle 76.png" width="8px"></a>
+                                </div>
+    
+                                <div class="flex-container-icon">
+                                    <div class="flex-container-icon-sub1">
+                                        <img src="/images/Group (1).png" width="25px"><a href="#">
+                                            <div class="category2">&nbsp;참여한 설문조사</div>
+                                    </div>
+                                        <img src="/images/Rectangle 76.png" width="8px"></a>
+                                </div>
+    
+                                <div class="flex-container-icon">
+                                    <div class="flex-container-icon-sub1">
+                                        <img src="/images/Vector (3).png" width="28px"><a href="#">
+                                            <div class="category2">포인트 내역</div>
+                                    </div>
+                                        <img src="/images/Rectangle 76.png" width="8px"></a>
+                                </div>
+    
+                                <div class="flex-container-icon">
+                                    <div class="flex-container-icon-sub1"></div>
+                                    <div id="out">
+                                        <button type="button">회원탈퇴</button>
+                                    </div>
+                                </div>
+    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--푸터-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
