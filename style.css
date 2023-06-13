@@ -30,12 +30,13 @@ li {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-    list-style: none
+    list-style: none;
 }
 
 h1,h2,h3,h4,h5{
     font-family: 'NIXGONM-Vb';
 }
+
 /*header*/
 #header {
     width: 100%;
@@ -191,9 +192,7 @@ h1,h2,h3,h4,h5{
     font-weight: bold;
     padding-bottom: 5px;
 }
-.market .subtitle{
-    padding-bottom: 30px;
-}
+
 .box{
     display: block;
     margin: 0 auto;
@@ -202,20 +201,13 @@ h1,h2,h3,h4,h5{
     padding: 0 0 50px 0;
 }
 
-.market button {
-    margin-top: 40px;
-}
-
-.card-title{
-    padding-bottom: 7px;
-}
-
 .state{
     color: #EB0E0E;
     padding-top: 10px;
     font-size: 15px;
     font-weight: bold;
 }
+
 .state .ok{
     color: #18A8F1;
 }
@@ -230,28 +222,16 @@ h1,h2,h3,h4,h5{
 
 #footer .information_area {
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-}
-
-#footer .contact_list {
-    margin-top: 3px;
-    letter-spacing: -1px;
 }
 
 #footer .contact_list strong {
     font-size: 16px;
 }
-#footer .contact_list ul {
-    margin-top: 21px;
-}
+
 #footer .contact_list li {
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     font-size: 12px;
     line-height: 22px;
@@ -260,8 +240,6 @@ h1,h2,h3,h4,h5{
 
 #footer .contact_list span {
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     color: #666;
 }
@@ -282,27 +260,18 @@ h1,h2,h3,h4,h5{
 #footer .contact_list li:last-child {
     letter-spacing: 0;
 }
+
 /*footer_bottom*/
 
 #footer .footer_bottom {
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     margin-top: 36px;
 }
-#footer .footer_bottom p {
-    font-size: 12px;
-    letter-spacing: -1px;
-}
 
 #footer .footer_bottom p span {
+    font-size: 12px;
     display: block;
     color: #666;
-}
-
-#footer .footer_bottom p span:last-child {
-    margin-top: 9px;
-    letter-spacing: 0;
 }
